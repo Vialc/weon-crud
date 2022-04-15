@@ -1,4 +1,5 @@
 <template>
+<center>
   <div>
     <v-overlay v-if="loading === true"></v-overlay>
     <v-progress-circular
@@ -9,10 +10,15 @@
       indeterminate
       v-if="loading === true"
     ></v-progress-circular>
-    <v-radio-group   v-model="radios" mandatory>
+    <center>
+    <v-radio-group id="radio-container"   v-model="radios" mandatory>
+      
       <template v-slot:label>
+        <center>
         <div><strong>Selecione o tipo de cadastro que deseja utilizar</strong></div>
+        </center>
       </template>
+      
       <v-radio value="CPF:">
         <template v-slot:label>
           <div>Pessoa Física</div>
@@ -24,6 +30,7 @@
         </template>
       </v-radio>
     </v-radio-group>
+    </center>
     <v-form  ref="form" id="form-container" class="pa-4" v-model="valid" lazy-validation>
       <v-text-field v-model="name" :rules="nameRules" label="Name" required></v-text-field>
 
@@ -78,6 +85,7 @@
       </template>
     </v-snackbar>
   </div>
+  </center>
 </template>
 
 <script>
@@ -157,7 +165,11 @@
     width: 80%;
     max-width: 613px;
   }
-  #form-container {
+  #form-container,
+  #radio-container {
+    max-width: 480px;
+  }
+  .v-input {
     max-width: 480px;
   }
 </style>
