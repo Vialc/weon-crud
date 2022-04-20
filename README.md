@@ -21,6 +21,12 @@
 
 ● Tela responsiva em diversas resoluções; ✔✔
 
+## Funcionalidades do Sistema
+
+● Update e delete
+<p align="center">
+  <img width="460" height="300" src=
+
 ## Tecnologias a serem utilizadas:
 ● VueJS ✔✔
 
