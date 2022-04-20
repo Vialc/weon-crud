@@ -25,7 +25,8 @@
 
 ● Update e delete
 <p align="center">
-  <img width="460" height="300" src=
+  <img width="460" height="300" src="src/assets/to-readme/edit-delete data.gif">
+</p>
 
 ## Tecnologias a serem utilizadas:
 ● VueJS ✔✔
