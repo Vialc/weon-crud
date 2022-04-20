@@ -1,6 +1,10 @@
 # weon-crud
 ### Teste Prático
 
+<p align="center">
+  <img width="460" height="300" src="src/assets/to-readme/tela-home.jpg">
+</p>
+
 ## Objetivos:
 
 ● Desenvolvimento de um CRUD de pessoa;✔✔
@@ -26,6 +30,16 @@
 ● Update e delete
 <p align="center">
   <img width="460" height="300" src="src/assets/to-readme/edit-delete data.gif">
+</p>
+
+● Formulário com validação de campos
+<p align="center">
+  <img width="460" height="300" src="src/assets/to-readme/Form Validation.gif">
+</p>
+
+● Alternar tipo de cadastro e aplicação de máscara de CPF e CNPJ
+<p align="center">
+  <img width="460" height="300" src="src/assets/to-readme/tipo de cadastro e mascara.gif">
 </p>
 
 ## Tecnologias a serem utilizadas:
