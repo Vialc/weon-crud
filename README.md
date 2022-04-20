@@ -59,15 +59,17 @@
 
 
 ## Project setup
-```
+
 - O Backend utiliza JasonBox. Para instalar é necessário ter uma instância do MongoDB rodando e dentro  da pasta jasonbox executar:
-  -npm install (Para instalar as dependências do servidor)
-  -npm start para rodar o servidor
+```
+  -npm install
+  -npm start
 
 ```
 - No Frontend basta executar:
-  -npm install
-
+```
+npm install
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
